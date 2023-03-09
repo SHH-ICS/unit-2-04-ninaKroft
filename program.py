@@ -13,7 +13,7 @@ for myNumber in range(1, 33):
     if myNumber % 5 == 0:
         result = result + "Buzz"
     if myNumber % 5 != 0 and myNumber % 3 != 0:
-        result = str(result) + str(myNumber) + "\n"
+        result = str(result) + str(myNumber)
   
     print(result)
 
