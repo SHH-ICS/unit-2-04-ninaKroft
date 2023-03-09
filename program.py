@@ -16,6 +16,3 @@ for myNumber in range(1, 33):
         result = str(result) + str(myNumber)
   
     print(result)
-
-  #result = str(result) + str(myNumber) + "\n"
-
