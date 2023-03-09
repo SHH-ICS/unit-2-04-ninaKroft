@@ -6,18 +6,16 @@
 # For multiples of 15, output   FizzBuzz
 # End at 32
 
-#fizzbuzz = 0
 
-for num in range(32):
+for myNumber in range(32):
     result = ""
-    if num % 3 == 0:
+    if myNumber % 3 == 0:
         result = result + "Fizz"
-    if num % 5 == 0:
+    if myNumber % 5 == 0:
         result = result + "Buzz"
-    if num % 5 != 0 and num % 3 != 0:
-        result = result + str(num)
+    if myNumber % 5 != 0 and myNumber % 3 != 0:
+        result = str(result) + str(myNumber)
     print(result)
 
   #result = str(result) + str(myNumber) + "\n"
 
-#print(result)
