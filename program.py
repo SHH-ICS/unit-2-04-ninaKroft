@@ -7,7 +7,7 @@
 # End at 32
 
 
-for myNumber in range(32):
+for myNumber in range(33):
     result = ""
     if myNumber % 3 == 0:
         result = result + "Fizz"
